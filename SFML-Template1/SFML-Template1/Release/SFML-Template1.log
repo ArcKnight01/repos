@@ -1,0 +1,2 @@
+﻿  SFML-Template.cpp
+C:\Users\Carrier Family\source\repos\SFML-Template1\SFML-Template1\SFML-Template.cpp(4,10): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory

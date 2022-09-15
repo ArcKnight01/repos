@@ -1,0 +1,5 @@
+﻿  RoboticsC++Learning.cpp
+C:\Users\Carrier Family\source\repos\RoboticsC++Learning\RoboticsC++Learning\main.h(6,5): error C2065: 'cout': undeclared identifier
+C:\Users\Carrier Family\source\repos\RoboticsC++Learning\RoboticsC++Learning\main.h(6,67): error C2065: 'endl': undeclared identifier
+C:\Users\Carrier Family\source\repos\RoboticsC++Learning\RoboticsC++Learning\RoboticsC++Learning.cpp(10,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
+C:\Users\Carrier Family\source\repos\RoboticsC++Learning\RoboticsC++Learning\RoboticsC++Learning.cpp(32,25): warning C4305: 'initializing': truncation from 'double' to 'float'

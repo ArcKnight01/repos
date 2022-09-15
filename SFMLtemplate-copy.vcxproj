@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ProjectGuid>{CF83CD5D-8285-4CF0-AE44-47483318B605}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <Optimization>Disabled</Optimization>
+    </ClCompile>
+    <Link>
+      <TargetMachine>MachineX86</TargetMachine>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <TargetMachine>MachineX86</TargetMachine>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="animations\animations\Animations.cpp" />
+    <ClCompile Include="arcknight01\tilemap\tilemap\tilemap\character.cpp" />
+    <ClCompile Include="arcknight01\tilemap\tilemap\tilemap\item.cpp" />
+    <ClCompile Include="arcknight01\tilemap\tilemap\tilemap\stdafx.cpp" />
+    <ClCompile Include="arcknight01\tilemap\tilemap\tilemap\Tile.cpp" />
+    <ClCompile Include="arcknight01\tilemap\tilemap\tilemap\TileMap.cpp" />
+    <ClCompile Include="array\array\Array.cpp" />
+    <ClCompile Include="battler\battler\Battler.cpp" />
+    <ClCompile Include="c4projecttest\c4projecttest\Actor.cpp" />
+    <ClCompile Include="c4projecttest\c4projecttest\C4ProjectTest.cpp" />
+    <ClCompile Include="c4projecttest\c4projecttest\Character.cpp" />
+    <ClCompile Include="c4projecttest\c4projecttest\Enemy.cpp" />
+    <ClCompile Include="c4projecttest\c4projecttest\Map.cpp" />
+    <ClCompile Include="c4projecttest\c4projecttest\Projectile.cpp" />
+    <ClCompile Include="checkers\checkers\board.cpp" />
+    <ClCompile Include="checkers\checkers\Checkers.cpp" />
+    <ClCompile Include="checkers\checkers\game.cpp" />
+    <ClCompile Include="checkers\checkers\piece.cpp" />
+    <ClCompile Include="checkers\checkers\stdafx.cpp" />
+    <ClCompile Include="classesreview\classesreview\animal.cpp" />
+    <ClCompile Include="classesreview\classesreview\ClassesReview.cpp" />
+    <ClCompile Include="classes\classes\classes.cpp" />
+    <ClCompile Include="classes\classes\player.cpp" />
+    <ClCompile Include="conditionals\conditionals\Conditionals.cpp" />
+    <ClCompile Include="consoleapplication1\consoleapplication1\ConsoleApplication1.cpp" />
+    <ClCompile Include="consoleapplication1\consoleapplication1\Guess.cpp" />
+    <ClCompile Include="files\files\ReadingFiles.cpp" />
+    <ClCompile Include="getstring\getstring\getString.cpp" />
+    <ClCompile Include="guess\guess\Guess.cpp" />
+    <ClCompile Include="howareyou\howareyou\HowAreYou.cpp" />
+    <ClCompile Include="jackolantern\jackolantern\JackOLantern.cpp" />
+    <ClCompile Include="jokesonyou\jokesonyou\jokesonyou.cpp" />
+    <ClCompile Include="mapcreator\mapcreator\mapCreator.cpp" />
+    <ClCompile Include="mapcreator\mapcreator\tile.cpp" />
+    <ClCompile Include="mapcreator\mapcreator\user.cpp" />
+    <ClCompile Include="myfirstproject\myfirstproject\MyFirstProject.cpp" />
+    <ClCompile Include="myfirstsfmlproject\myfirstsfmlproject\myFirstSFMLProj.cpp" />
+    <ClCompile Include="newprojectiles\newprojectiles\Actor.cpp" />
+    <ClCompile Include="newprojectiles\newprojectiles\Character.cpp" />
+    <ClCompile Include="newprojectiles\newprojectiles\Enemy.cpp" />
+    <ClCompile Include="newprojectiles\newprojectiles\Map.cpp" />
+    <ClCompile Include="newprojectiles\newprojectiles\newProjectiles.cpp" />
+    <ClCompile Include="newprojectiles\newprojectiles\Projectile.cpp" />
+    <ClCompile Include="pingpong\pingpong\ball.cpp" />
+    <ClCompile Include="pingpong\pingpong\paddle.cpp" />
+    <ClCompile Include="pingpong\pingpong\PingPong.cpp" />
+    <ClCompile Include="roboticsc++learning\roboticsc++learning\RoboticsC++Learning.cpp" />
+    <ClCompile Include="rocket\rocket\Rocket.cpp" />
+    <ClCompile Include="rpg-dnd-adventure\rpg-dnd-adventure\character.cpp" />
+    <ClCompile Include="rpg-dnd-adventure\rpg-dnd-adventure\enemy.cpp" />
+    <ClCompile Include="rpg-dnd-adventure\rpg-dnd-adventure\player.cpp" />
+    <ClCompile Include="rpg-dnd-adventure\rpg-dnd-adventure\RPG-DnD-Adventure.cpp" />
+    <ClCompile Include="rpgplayinggame\rpgplayinggame\character.cpp" />
+    <ClCompile Include="rpgplayinggame\rpgplayinggame\enemy.cpp" />
+    <ClCompile Include="rpgplayinggame\rpgplayinggame\main.cpp" />
+    <ClCompile Include="rpgplayinggame\rpgplayinggame\PetRockPlayingGame.cpp" />
+    <ClCompile Include="rpgplayinggame\rpgplayinggame\player.cpp" />
+    <ClCompile Include="rpgplayinggame\rpgplayinggame\Source.cpp" />
+    <ClCompile Include="screentime\screentime\screentime.cpp" />
+    <ClCompile Include="sfml-template1\sfml-template1\SFML-Template.cpp" />
+    <ClCompile Include="sfml-template\sfml-template\SFML-Template.cpp" />
+    <ClCompile Include="sprites\sprites\Sprites.cpp" />
+    <ClCompile Include="stringvector\stringvector\stringvector.cpp" />
+    <ClCompile Include="texttournamentturbo\texttournamentturbo\main.cpp" />
+    <ClCompile Include="tilemap\tilemap\character.cpp" />
+    <ClCompile Include="tilemap\tilemap\stdafx.cpp" />
+    <ClCompile Include="tilemap\tilemap\Tile.cpp" />
+    <ClCompile Include="tilemap\tilemap\TileMap.cpp" />
+    <ClCompile Include="userstory\userstory\UserStory.cpp" />
+    <ClCompile Include="vectors\vectors\vectors.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="arcknight01\tilemap\tilemap\tilemap\character.h" />
+    <ClInclude Include="arcknight01\tilemap\tilemap\tilemap\item.h" />
+    <ClInclude Include="arcknight01\tilemap\tilemap\tilemap\stdafx.h" />
+    <ClInclude Include="arcknight01\tilemap\tilemap\tilemap\targetver.h" />
+    <ClInclude Include="arcknight01\tilemap\tilemap\tilemap\Tile.h" />
+    <ClInclude Include="arcknight01\tilemap\tilemap\tilemap\TileMap.h" />
+    <ClInclude Include="c4projecttest\c4projecttest\Actor.h" />
+    <ClInclude Include="c4projecttest\c4projecttest\Character.h" />
+    <ClInclude Include="c4projecttest\c4projecttest\Enemy.h" />
+    <ClInclude Include="c4projecttest\c4projecttest\Map.h" />
+    <ClInclude Include="c4projecttest\c4projecttest\Projectile.h" />
+    <ClInclude Include="checkers\checkers\board.h" />
+    <ClInclude Include="checkers\checkers\game.h" />
+    <ClInclude Include="checkers\checkers\piece.h" />
+    <ClInclude Include="checkers\checkers\stdafx.h" />
+    <ClInclude Include="checkers\checkers\targetver.h" />
+    <ClInclude Include="classesreview\classesreview\animal.h" />
+    <ClInclude Include="classes\classes\player.h" />
+    <ClInclude Include="mapcreator\mapcreator\tile.h" />
+    <ClInclude Include="mapcreator\mapcreator\user.h" />
+    <ClInclude Include="newprojectiles\newprojectiles\Actor.h" />
+    <ClInclude Include="newprojectiles\newprojectiles\Character.h" />
+    <ClInclude Include="newprojectiles\newprojectiles\Enemy.h" />
+    <ClInclude Include="newprojectiles\newprojectiles\Map.h" />
+    <ClInclude Include="newprojectiles\newprojectiles\Projectile.h" />
+    <ClInclude Include="pingpong\pingpong\ball.h" />
+    <ClInclude Include="pingpong\pingpong\paddle.h" />
+    <ClInclude Include="roboticsc++learning\roboticsc++learning\main.h" />
+    <ClInclude Include="rpg-dnd-adventure\rpg-dnd-adventure\character.h" />
+    <ClInclude Include="rpg-dnd-adventure\rpg-dnd-adventure\enemy.h" />
+    <ClInclude Include="rpg-dnd-adventure\rpg-dnd-adventure\player.h" />
+    <ClInclude Include="rpgplayinggame\rpgplayinggame\character.h" />
+    <ClInclude Include="rpgplayinggame\rpgplayinggame\enemy.h" />
+    <ClInclude Include="rpgplayinggame\rpgplayinggame\Header.h" />
+    <ClInclude Include="rpgplayinggame\rpgplayinggame\player.h" />
+    <ClInclude Include="texttournamentturbo\texttournamentturbo\main.h" />
+    <ClInclude Include="tilemap\tilemap\character.h" />
+    <ClInclude Include="tilemap\tilemap\stdafx.h" />
+    <ClInclude Include="tilemap\tilemap\targetver.h" />
+    <ClInclude Include="tilemap\tilemap\Tile.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

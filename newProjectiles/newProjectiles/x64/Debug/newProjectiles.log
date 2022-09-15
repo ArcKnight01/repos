@@ -1,0 +1,12 @@
+﻿  Character.cpp
+C:\Users\Carrier Family\source\repos\newProjectiles\newProjectiles\Map.h(76,71): warning C4244: 'argument': conversion from 'float' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+C:\Users\Carrier Family\source\repos\newProjectiles\newProjectiles\Map.h(76,33): warning C4244: 'argument': conversion from 'float' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+  newProjectiles.vcxproj -> C:\Users\Carrier Family\source\repos\newProjectiles\x64\Debug\newProjectiles.exe

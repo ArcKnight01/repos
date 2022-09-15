@@ -1,0 +1,30 @@
+﻿  ball.cpp
+C:\Users\arcar\OneDrive\Desktop\Visual Studios Repos (2021)\repos\PingPong\PingPong\ball.h(12,43): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\arcar\OneDrive\Desktop\Visual Studios Repos (2021)\repos\PingPong\PingPong\ball.cpp(14,22): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\arcar\OneDrive\Desktop\Visual Studios Repos (2021)\repos\PingPong\PingPong\ball.cpp(15,22): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\arcar\OneDrive\Desktop\Visual Studios Repos (2021)\repos\PingPong\PingPong\ball.cpp(82,23): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\arcar\OneDrive\Desktop\Visual Studios Repos (2021)\repos\PingPong\PingPong\ball.cpp(83,23): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\arcar\OneDrive\Desktop\Visual Studios Repos (2021)\repos\PingPong\PingPong\ball.cpp(84,17): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  paddle.cpp
+C:\Users\arcar\OneDrive\Desktop\Visual Studios Repos (2021)\repos\PingPong\PingPong\paddle.cpp(1,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  PingPong.cpp
+C:\Users\arcar\OneDrive\Desktop\Visual Studios Repos (2021)\repos\PingPong\PingPong\ball.h(12,43): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\arcar\OneDrive\Desktop\Visual Studios Repos (2021)\repos\PingPong\PingPong\PingPong.cpp(271,17): warning C4553: '==': result of expression not used; did you intend '='?
+  Generating Code...
+  PingPong.vcxproj -> C:\Users\arcar\OneDrive\Desktop\Visual Studios Repos (2021)\repos\PingPong\x64\Debug\PingPong.exe

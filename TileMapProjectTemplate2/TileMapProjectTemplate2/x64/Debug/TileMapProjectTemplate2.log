@@ -1,0 +1,40 @@
+﻿  character.cpp
+C:\Users\Carrier Family\source\repos\TileMapProjectTemplate2\TileMapProjectTemplate2\character.cpp(15,33): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  item.cpp
+  stdafx.cpp
+  Tile.cpp
+  TileMap.cpp
+C:\Users\Carrier Family\source\repos\TileMapProjectTemplate2\TileMapProjectTemplate2\TileMap.cpp(29,49): warning C4244: 'argument': conversion from 'const float' to 'unsigned int', possible loss of data
+C:\Users\Carrier Family\source\repos\TileMapProjectTemplate2\TileMapProjectTemplate2\TileMap.cpp(29,40): warning C4244: 'argument': conversion from 'const float' to 'unsigned int', possible loss of data
+C:\Users\Carrier Family\source\repos\TileMapProjectTemplate2\TileMapProjectTemplate2\TileMap.cpp(54,111): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=int
+          ]
+C:\Users\Carrier Family\source\repos\TileMapProjectTemplate2\TileMapProjectTemplate2\TileMap.cpp(54,77): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=int
+          ]
+C:\Users\Carrier Family\source\repos\TileMapProjectTemplate2\TileMapProjectTemplate2\TileMap.cpp(131,110): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=int
+          ]
+C:\Users\Carrier Family\source\repos\TileMapProjectTemplate2\TileMapProjectTemplate2\TileMap.cpp(131,76): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=int
+          ]
+C:\Users\Carrier Family\source\repos\TileMapProjectTemplate2\TileMapProjectTemplate2\TileMap.cpp(143,110): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=int
+          ]
+C:\Users\Carrier Family\source\repos\TileMapProjectTemplate2\TileMapProjectTemplate2\TileMap.cpp(143,76): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=int
+          ]
+  Generating Code...
+  TileMapProjectTemplate2.vcxproj -> C:\Users\Carrier Family\source\repos\TileMapProjectTemplate2\x64\Debug\TileMapProjectTemplate2.exe

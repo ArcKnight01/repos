@@ -1,0 +1,3 @@
+﻿  MyFirstProject.cpp
+C:\Users\Carrier Family\source\repos\MyFirstProject\MyFirstProject\MyFirstProject.cpp(13,25): warning C4305: 'initializing': truncation from 'double' to 'float'
+  MyFirstProject.vcxproj -> C:\Users\Carrier Family\source\repos\MyFirstProject\Debug\MyFirstProject.exe
